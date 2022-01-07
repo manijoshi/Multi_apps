@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <!--Display wheatere bluetooth is available or not-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/back"
+        android:text="BACK"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/backbtnclr"
+        android:textColor="@color/white"
+
+        />
+
+    <TextView
+        android:id="@+id/statusBluetoothTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:layout_marginTop="100dp"
+        tools:ignore="RtlCompat" />
+
+    <!--Bluetooth icon (on/off)-->
+    <ImageView
+        android:id="@+id/bluetoothIv"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <!--On Button-->
+    <Button
+        android:id="@+id/onButn"
+        android:background="@drawable/bluetbtnbg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="200dp"
+        android:text="Turn On"
+        android:layout_margin="5dp"
+        android:textColor="@color/white"/>
+
+    <!--Off Button-->
+    <Button
+        android:id="@+id/offButn"
+        android:background="@drawable/bluetbtnbg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="200dp"
+        android:text="Turn Off"
+        android:layout_margin="5dp"
+        android:textColor="@color/white"/>
+
+    <!--Get list of paired device button-->
+
+    <!--Show Paired Device here-->
+    <TextView
+        android:id="@+id/pairTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="200dp"
+        android:text=""
+        android:textColor="#000"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>
+

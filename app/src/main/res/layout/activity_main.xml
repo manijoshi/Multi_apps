@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/mpbg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/apps"
+        android:textColor="@color/white"
+        android:text="APPS"
+        android:fontFamily="casual"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_margin="90dp"/>
+
+    <Button
+        android:id="@+id/calculator"
+        android:layout_width="61dp"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="150dp"
+
+        android:layout_marginLeft="150dp"
+        android:layout_marginBottom="343dp"
+        android:background="@drawable/calculator" />
+
+    <Button
+        android:id="@+id/bluetooth"
+        android:layout_width="61dp"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginBottom="341dp"
+        android:background="@drawable/bluetooth" />
+
+    <Button
+        android:id="@+id/wifi"
+        android:layout_width="61dp"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+
+        android:layout_marginStart="270dp"
+        android:layout_marginLeft="270dp"
+        android:layout_marginBottom="343dp"
+        android:background="@drawable/wifi" />
+
+    <Button
+        android:id="@+id/flash"
+        android:layout_width="61dp"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_centerInParent="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginBottom="230dp"
+        android:background="@drawable/flashlight" />
+
+    <Button
+        android:id="@+id/camera"
+        android:layout_width="61dp"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginBottom="228dp"
+        android:background="@drawable/camera" />
+
+    <Button
+        android:id="@+id/music"
+        android:layout_width="61dp"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="270dp"
+        android:layout_marginLeft="270dp"
+        android:layout_marginBottom="228dp"
+        android:background="@drawable/headphone" />
+
+    <Button
+        android:id="@+id/quiz"
+        android:layout_width="61dp"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginBottom="106dp"
+        android:background="@drawable/quiz_icon" />
+
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="buttonDel" type="id" />
+    <item name="statusBluetoothTv" type="id" />
+    <item name="pairTv" type="id" />
+    <item name="PairedBtn" type="id" />
+    <item name="discoverableBtn" type="id" />
+    <item name="offButn" type="id" />
+    <item name="onButn" type="id" />
+    <item name="bluetoothIv" type="id" />
+    <item name="imageView" type="id" />
+    <item name="songTitle" type="id" />
+    <item name="seekBarTime" type="id" />
+    <item name="prev" type="id" />
+    <item name="play" type="id" />
+    <item name="next" type="id" />
+    <item name="seekBarVol" type="id" />
+</resources>
